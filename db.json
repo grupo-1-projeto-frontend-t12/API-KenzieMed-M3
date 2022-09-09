@@ -1,0 +1,1147 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Admin",
+      "email": "fred@kenziemed.com",
+      "password": "Fred1234@",
+      "CPF": "12312312312",
+      "age": 20,
+      "sex": "M",
+      "type": "patient",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
+      "address": "kenzie academy"
+    },
+    {
+      "id": 2,
+      "name": "Admin2 Admin2",
+      "email": "admin2@kenziemed.com",
+      "password": "Fred1234@",
+      "CPF": "12312312312",
+      "age": 20,
+      "sex": "F",
+      "type": "patient",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
+      "address": "kenzie academy"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Frederico Costa",
+      "email": "medfred@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1990-SE",
+      "age": 27,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Cardiologista",
+      "exames": [
+        {
+          "id": 1,
+          "exame": "Ecocardiograma",
+          "dia": "Segunda-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 2,
+          "exame": "Teste de Ergométrico ",
+          "dia": "Segunda-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 3,
+          "exame": "Angiografia digital",
+          "dia": "Terça-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 4,
+          "exame": "Ressonância Magnética (RM)",
+          "dia": "Terça-feira",
+          "hora": "11:00"
+        },
+        {
+          "id": 5,
+          "exame": "Angiografia digital",
+          "dia": "Terça-feira",
+          "hora": "12:00"
+        },
+        {
+          "id": 6,
+          "exame": "Eletrocardiograma de repouso (ECG) ",
+          "dia": "Quarta-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 7,
+          "exame": "Radiografia de tórax ",
+          "dia": "Quarta-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 8,
+          "exame": "Radiografia de tórax ",
+          "dia": "Quarta-feira",
+          "hora": "11:00"
+        },
+        {
+          "id": 9,
+          "exame": "Holter",
+          "dia": "Quarta-feira",
+          "hora": "12:00"
+        },
+        {
+          "id": 10,
+          "exame": "Mapa",
+          "dia": "Quarta-feira",
+          "hora": "13:00"
+        },
+        {
+          "id": 11,
+          "exame": "Ecografia transesofágica",
+          "dia": "Quinta-feira",
+          "hora": "10:00"
+        },
+
+        {
+          "id": 12,
+          "exame": "Cintilografia",
+          "dia": "Quinta-feira",
+          "hora": "11:00"
+        },
+        {
+          "id": 13,
+          "exame": "Cateterismo cardíaco",
+          "dia": "Quinta-feira",
+          "hora": "12:00"
+        }
+      ],
+
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/492.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "28/08/2022",
+          "hora": "17:00"
+        },
+        {
+          "id": 2,
+          "dia": "28/08/2022",
+          "hora": "18:00"
+        },
+        {
+          "id": 3,
+          "dia": "28/08/2022",
+          "hora": "19:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dra. Aline Rabech",
+      "email": "medaline@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1991-SE",
+      "age": 24,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Pneumologista",
+      "exames": [
+        {
+          "id": 1,
+          "exame": "Raio X do Tórax",
+          "dia": "Segunda-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 2,
+          "exame": "Volumes Pulmonares/Pletismografia",
+          "dia": "Segunda-feira",
+          "hora": "10:00"
+        }
+      ],
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/493.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "27/08/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "28/08/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 3,
+          "dia": "29/08/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 4,
+          "dia": "29/08/2022",
+          "hora": "15:00"
+        },
+        {
+          "id": 5,
+          "dia": "29/08/2022",
+          "hora": "16:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Tony Tony Chopper",
+      "email": "medchopper@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1890-BA",
+      "age": 12,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Endocrinologista",
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/494.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "30/08/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "30/08/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 3,
+          "dia": "30/08/2022",
+          "hora": "14:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dra. Flavia Costa",
+      "email": "medflav@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1994-SE",
+      "age": 25,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Cardiologista",
+      "exames": [
+        {
+          "id": 1,
+          "exame": "Ecocardiograma",
+          "dia": "Segunda-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 2,
+          "exame": "Teste de Ergométrico ",
+          "dia": "Segunda-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 3,
+          "exame": "Angiografia digital",
+          "dia": "Terça-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 4,
+          "exame": "Ressonância Magnética (RM)",
+          "dia": "Terça-feira",
+          "hora": "11:00"
+        },
+        {
+          "id": 5,
+          "exame": "Angiografia digital",
+          "dia": "Terça-feira",
+          "hora": "12:00"
+        },
+        {
+          "id": 5,
+          "exame": "Eletrocardiograma de repouso (ECG) ",
+          "dia": "Quarta-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 6,
+          "exame": "Radiografia de tórax ",
+          "dia": "Quarta-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 7,
+          "exame": "Radiografia de tórax ",
+          "dia": "Quarta-feira",
+          "hora": "11:00"
+        },
+        {
+          "id": 8,
+          "exame": "Holter",
+          "dia": "Quarta-feira",
+          "hora": "12:00"
+        },
+        {
+          "id": 9,
+          "exame": "Mapa",
+          "dia": "Quarta-feira",
+          "hora": "13:00"
+        },
+        {
+          "id": 10,
+          "exame": "Mapa",
+          "dia": "Quarta-feira",
+          "hora": "13:00"
+        },
+        {
+          "id": 11,
+          "exame": "Mapa",
+          "dia": "Quinta-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 11,
+          "exame": "Ecografia transesofágica",
+          "dia": "Quinta-feira",
+          "hora": "10:00"
+        },
+
+        {
+          "id": 12,
+          "exame": "Cintilografia",
+          "dia": "Quinta-feira",
+          "hora": "11:00"
+        },
+        {
+          "id": 13,
+          "exame": "Cateterismo cardíaco",
+          "dia": "Quinta-feira",
+          "hora": "12:00"
+        }
+      ],
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/495.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "25/08/2022",
+          "hora": "17:00"
+        },
+        {
+          "id": 2,
+          "dia": "26/08/2022",
+          "hora": "17:00"
+        },
+        {
+          "id": 3,
+          "dia": "27/08/2022",
+          "hora": "17:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dr. Bruno Rabelo",
+      "email": "mebruno@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1790-AL",
+      "age": 32,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Cardiologista",
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/496.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "01/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 2,
+          "dia": "01/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 3,
+          "dia": "01/09/2022",
+          "hora": "15:00"
+        },
+        {
+          "id": 4,
+          "dia": "01/09/2022",
+          "hora": "16:00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dr. Edgard Meneses",
+      "email": "mededgar@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1490-SP",
+      "age": 29,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Otorrinolaringologista",
+      "exames": [
+        {
+          "id": 1,
+          "exame": "Audiometria tonal",
+          "dia": "Segunda-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 2,
+          "exame": "Audiometria Vocal",
+          "dia": "Segunda-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 3,
+          "exame": "Imitanciometria ou impedanciometria",
+          "dia": "Segunda-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 4,
+          "exame": "Vectoeletronistagmografia (VENG)",
+          "dia": "Terça-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 5,
+          "exame": "Exame Otoneurológico",
+          "dia": "Terça-feira",
+          "hora": "11:00"
+        }
+      ],
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/497.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "02/09/2022",
+          "hora": "15:00"
+        },
+        {
+          "id": 2,
+          "dia": "02/09/2022",
+          "hora": "16:00"
+        },
+        {
+          "id": 3,
+          "dia": "02/09/2022",
+          "hora": "17:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Dra. Victoria Smith",
+      "email": "medvictoria@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1290-RJ",
+      "age": 22,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Pneumologista",
+      "exames": [
+        {
+          "id": 1,
+          "exame": "Raio X do Tórax.",
+          "dia": "Segunda-feira",
+          "hora": "9:00"
+        }
+      ],
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/498.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Dra. Taina Andrade",
+      "email": "medtaina@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1190-BA",
+      "age": 21,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Ortopedista",
+      "exames": [
+        {
+          "id": 1,
+          "exame": "Raio-X",
+          "dia": "Segunda-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 2,
+          "exame": "Ultrassom",
+          "dia": "Segunda-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 3,
+          "exame": "Tomografia computadorizada",
+          "dia": "Segunda-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 4,
+          "exame": "Ressonância magnética",
+          "dia": "Segunda-feira",
+          "hora": "11:00"
+        }
+      ],
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/499.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "01/09/2022",
+          "hora": "15:00"
+        },
+        {
+          "id": 2,
+          "dia": "01/09/2022",
+          "hora": "16:00"
+        },
+        {
+          "id": 3,
+          "dia": "01/09/2022",
+          "hora": "17:00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Dr. Marcelo Cebass",
+      "email": "medmarcel@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "1230-RJ",
+      "age": 42,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Ortopedista",
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/500.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "30/08/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "30/08/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 3,
+          "dia": "30/08/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 4,
+          "dia": "30/08/2022",
+          "hora": "15:00"
+        },
+        {
+          "id": 5,
+          "dia": "30/08/2022",
+          "hora": "16:00"
+        },
+        {
+          "id": 6,
+          "dia": "30/08/2022",
+          "hora": "17:00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Dra. Mariana Helena",
+      "email": "medmari@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "15690-MG",
+      "age": 36,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Pediatra",
+      "address": "Unidade - Campo Largo",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "31/08/2022",
+          "hora": "10:00"
+        },
+        {
+          "id": 2,
+          "dia": "31/08/2022",
+          "hora": "11:00"
+        },
+        {
+          "id": 3,
+          "dia": "31/08/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "01/09/2022",
+          "hora": "10:00"
+        },
+        {
+          "id": 5,
+          "dia": "01/09/2022",
+          "hora": "11:00"
+        },
+        {
+          "id": 6,
+          "dia": "01/09/2022",
+          "hora": "12:00"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dra. Genebra Franscah",
+      "email": "medgeni@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "15696-MG",
+      "age": 56,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Oftalmologista",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "01/09/2022",
+          "hora": "07:00"
+        },
+        {
+          "id": 2,
+          "dia": "01/09/2022",
+          "hora": "08:00"
+        },
+        {
+          "id": 3,
+          "dia": "01/09/2022",
+          "hora": "09:00"
+        },
+        {
+          "id": 4,
+          "dia": "01/09/2022",
+          "hora": "10:00"
+        },
+        {
+          "id": 5,
+          "dia": "01/09/2022",
+          "hora": "11:00"
+        },
+        {
+          "id": 6,
+          "dia": "01/09/2022",
+          "hora": "12:00"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dra. Renata Macchiolo",
+      "email": "medrenata@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "15644-SP",
+      "age": 49,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Gastroenterologia",
+      "exames": [
+        {
+          "id": 1,
+          "exame": "Colonoscopia",
+          "dia": "Terça-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 2,
+          "exame": "Ecoendoscopia diagnóstica e terapêutica",
+          "dia": "Terça-feira",
+          "hora": "9:00"
+        },
+        {
+          "id": 3,
+          "exame": "Endoscopia digestiva alta",
+          "dia": "Terça-feira",
+          "hora": "10:00"
+        },
+        {
+          "id": 4,
+          "exame": "PHmetria do esôfago",
+          "dia": "Terça-feira",
+          "hora": "11:00"
+        }
+      ],
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "02/09/2022",
+          "hora": "07:00"
+        },
+        {
+          "id": 2,
+          "dia": "02/09/2022",
+          "hora": "08:00"
+        },
+        {
+          "id": 3,
+          "dia": "02/09/2022",
+          "hora": "09:00"
+        },
+        {
+          "id": 4,
+          "dia": "02/09/2022",
+          "hora": "10:00"
+        },
+        {
+          "id": 5,
+          "dia": "02/09/2022",
+          "hora": "11:00"
+        },
+        {
+          "id": 6,
+          "dia": "02/09/2022",
+          "hora": "12:00"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Dr. Dio Brando",
+      "email": "meddio@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "5644-PE",
+      "age": 200,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Ortopedista",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Dr. Jonathan Joestar",
+      "email": "medjojo@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "544-SE",
+      "age": 200,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Oftalmologista",
+      "address": "Unidade - Campo Largo",
+      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/505.png",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Dr. Polnareff",
+      "email": "medpol@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "544-SE",
+      "age": 18,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Otorrinolaringologista",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Dra. Hermione Granger",
+      "email": "medherm@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "523444-SP",
+      "age": 25,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Imunologista",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Dra. 2B",
+      "email": "med2B@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "5234-MG",
+      "age": 9000,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Dermatologista",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Dra. A2",
+      "email": "medA2@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "52224-MG",
+      "age": 9001,
+      "sex": "F",
+      "type": "doctor",
+      "speciality": "Dermatologista",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Dr. 9S",
+      "email": "med9S@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "522344-MG",
+      "age": 9002,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Psiquiatra",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Dr. John Joseph",
+      "email": "medjohn@kenziemed.com",
+      "password": "fred123",
+      "CPF": "12312312312",
+      "CRM": "44-SE",
+      "age": 31,
+      "sex": "M",
+      "type": "doctor",
+      "speciality": "Oftalmologista",
+      "address": "Unidade - Rio Claro",
+      "img": "https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
+      "schedules": [
+        {
+          "id": 1,
+          "dia": "03/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 2,
+          "dia": "04/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 3,
+          "dia": "07/09/2022",
+          "hora": "12:00"
+        },
+        {
+          "id": 4,
+          "dia": "07/09/2022",
+          "hora": "13:00"
+        },
+        {
+          "id": 5,
+          "dia": "07/09/2022",
+          "hora": "14:00"
+        },
+        {
+          "id": 6,
+          "dia": "07/09/2022",
+          "hora": "18:00"
+        },
+        {
+          "id": 7,
+          "dia": "07/09/2022",
+          "hora": "20:00"
+        }
+      ]
+    }
+  ],
+  "appointment": []
+}
